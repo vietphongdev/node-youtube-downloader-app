@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: #111;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 50px;
+}
+
+.form {
+  padding: 160px 50px;
+  background: linear-gradient(to right, #809eab, #eef2f3);
+}
+
+.form .form-element {
+  width: 400px;
+  margin: 10px auto;
+}
+
+.form .form-element label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form .form-element input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #888;
+  font-size: 15px;
+}
+.form .form-element #get-video-info-btn {
+  width: 100%;
+  height: 40px;
+  background: #111;
+  color: #f5f5f5;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.video-data {
+  width: 400px;
+  margin: 60px auto;
+  display: none;
+}
+.video-data .data .thumbnail img {
+  width: 100%;
+}
+.video-data .data .info {
+  margin-top: 10px;
+}
+
+.video-data .data .info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.video-data .data .info p {
+  font-size: 15px;
+  color: rgb(51, 50, 50);
+}
+
+.video-data .controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-data .controls select,
+.video-data .controls button {
+  width: 48%;
+  height: 40px;
+}
+
+.video-data .controls button {
+  border: 1px solid #888;
+  color: #111;
+  background: transparent;
+  cursor: pointer;
+}

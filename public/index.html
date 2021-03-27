@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Downloader</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">Youtube Video Downloader</div>
+    <div class="form">
+      <div class="form-element">
+        <label for="videoURL">Enter Your Link</label>
+        <input type="text" id="videoURL" />
+      </div>
+      <div class="form-element">
+        <button id="get-video-info-btn">Get Video</button>
+      </div>
+    </div>
+    <div class="video-data">
+      <div class="data">
+        <div class="thumbnail">
+          <img />
+        </div>
+        <div class="info">
+          <h2>Download Video and Audio from YouTube</h2>
+          <p>
+            App offers the fastest way of Youtube video download in mp3, mp4,
+            SQ, HD, Full HD quality, plus a wide range of formats for free. It’s
+            the most convenient YouTube downloader you’ve ever tried! Save one
+            video or song to your pc or mobile and see it for yourself!
+          </p>
+        </div>
+      </div>
+      <div class="controls">
+        <input type="hidden" id="video-url" />
+        <select id="download-options"></select>
+        <button id="download-btn">Download</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
